@@ -1,0 +1,109 @@
+#head{
+    color: yellowgreen;
+    margin: -16px -6px;
+}
+
+
+#nav::before {
+    opacity: 0.4;
+    content: "";
+    background-color: rgb(28 213 43);
+    position: absolute;
+    height: 62px;
+    width: 1912px;
+    z-index: -2;
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Itim', cursive;
+
+}
+
+#nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: rgb(81, 95, 61);
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+
+#count1 {
+    border: 1px solid green;
+    height: 370px;
+    width: 348px;
+    margin: 42px;
+}
+
+#count2 {
+    border: 1px solid green;
+    height: 370px;
+    width: 348px;
+    margin: 42px;
+}
+
+#count3 {
+    border: 1px solid green;
+    height: 370px;
+    width: 348px;
+    margin: 42px;
+}
+
+#count4 {
+    border: 1px solid green;
+    height: 370px;
+    width: 348px;
+    margin: 42px;
+}
+
+#count {
+    display: flex;
+    flex-direction: row;
+    margin: 1px 220px;
+    font-family: 'Righteous', cursive;
+}
+
+#img1 {
+
+
+    height: 25vh;
+    margin: 0px 72px;
+
+}
+
+.pr{
+    padding: 12px;
+    border-radius: 13px;
+    border-style: none;
+    background-color: rgb(45, 200, 45);
+}
+
+.pr:hover {
+    background-color: greenyellow;
+}
+#con1 {
+    display: flex;
+    flex-direction: row;
+    margin: 1px 220px;
+    font-family: 'Righteous', cursive;
+}
+
+#con2 {
+    display: flex;
+    flex-direction: row;
+    margin: 1px 220px;
+    font-family: 'Righteous', cursive;
+}
+
+#table{
+    font-size: 2rem;
+    margin: -83rem 1px;
+    font-family: 'Satisfy', cursive;
+}
